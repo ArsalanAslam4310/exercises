@@ -1,3 +1,3 @@
 string = input("Enter a string:")    
-x = string[::3]
+x = string[::2]
 print(x)

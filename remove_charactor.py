@@ -1,3 +1,3 @@
-string = input("Enter a string:")    
-x = string[0:4]
+index = input("Enter a index:")    
+x = index[index:]
 print(x)

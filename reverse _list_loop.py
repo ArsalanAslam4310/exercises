@@ -1,5 +1,7 @@
 numbers =[5,4,25,2,1]
-new_list= reversed(numbers)
+new_list = []
 
-for i in new_list:
-    print(i)
+for i in range(len(numbers)-1,-1,-1):
+    new_list.append(numbers[i]) 
+    
+    
